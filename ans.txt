@@ -1,0 +1,23 @@
+Start: We the People..
+a]  Original Size: 44.6 KB (45,704 bytes)
+
+b]
+    Tree created
+    File encoded & decoded
+c]
+    US Constitution Data:
+
+    Original File: 45.7KB (45,704 bytes)
+    Encoded File: 25.15KB (25,151 bytes)
+    Decoded File: 43.7KB (44,841 bytes)
+    - Everything is intact
+    Compression Ratio: 55.03%
+d]
+    ForkJoin
+    ExecutorService
+    Single Threaded
+e]
+    Certain parts of Huffman coding can be done in parallel, however,
+    there are some parts which are not are good as others or worse
+    for parallelization. This depends on choosing where we can
+    use multiple threads to help speedup.
