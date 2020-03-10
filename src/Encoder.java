@@ -40,7 +40,6 @@ public class Encoder extends RecursiveTask<StringBuilder> {
                 pq.add(new Node(i, frequency[i], null, null));
             }
         }
-
         //root
         if (pq.size() == 1) {
             pq.add(new Node('\0', 1, null, null));
